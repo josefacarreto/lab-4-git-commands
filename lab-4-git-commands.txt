@@ -1,0 +1,29 @@
+Exercise 1: Initializing a Git Repository
+1. Open a terminal and navigate to your desired project directory.
+2. Use the `git init` command to create a new Git repository in that directory.
+3. Verify that the repository has been created successfully. Use the `git status` command to check the status of your repository.
+4. How do you know it has initialized sucessfully?
+
+Exercise 2: Tracking Changes
+1. Create a new text file (e.g., "example.txt") in your repository.
+2. Use `git status` to see the status of your repository. What does it show?
+3. Use `git add` to stage the "example.txt" file for a commit.
+4. Check the status again using `git status`. What's the difference now?
+
+Exercise 3: Making a Commit
+1. Use `git commit` to create a commit with the staged changes. Don't forget to provide a meaningful commit message.
+2. Use `git status` to check the status of your repository once more. What does it show now?
+
+Exercise 4: Viewing Commit History
+1. Use `git log` to view the commit history of your repository. This will display a list of commits, including the commit message, author, date, and a unique commit hash.
+2. Try adding the `--oneline` option to `git log` to display a more concise version of the commit history.
+
+Exercise 5: Making More Changes
+1. Make additional changes to the "example.txt" file.
+2. Use `git status` to see the status of your repository. Are the changes detected?
+3. Use `git add` to stage the new changes.
+4. Create a new commit with the staged changes using `git commit`.
+
+Exercise 6: Reviewing Commit History
+1. Use `git log` to view the updated commit history. You should now see the new commits you made.
+Paste them here:
